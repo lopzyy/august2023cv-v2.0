@@ -1,0 +1,203 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-color: lightgray;
+    color: black;
+
+    /* text-align: center; */
+    text-shadow: 0.1em 0.1em 0.15em lightgray;
+    font-size: 16px;
+    font-weight: normal;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* font: normal 16px Arial, Helvetica, sans-serif; */
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    transition: all 0.25s ease;
+    color: blue;
+    text-decoration: underline;
+}
+a:active {
+    color: purple;
+}
+.card {
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    margin: 20px auto 20px auto;
+}
+.card-second {
+    padding: 15px 25px;
+    /* margin-bottom: 20px; */
+    /* border-radius: 25px; */
+    border: 1px solid lightgray;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    /* max-width: 65%; */
+}
+.card-third {
+    padding: 5px 25px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    /* box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25); */
+}
+.card h2 {
+    margin-bottom: 20px;
+}
+.bg-color1 {
+    background-color: #f9e7ff;
+}
+.bg-color2 {
+    background-color: #dceeff;
+}
+.bg-color3 {
+    background-color: #fdffe5;
+}
+.bg-color4 {
+    background-color: #ddffe0;
+}
+.bg-color5 {
+    background-color: #ffecfa;
+}
+
+/* main */
+
+.container {
+    padding-top: 30px;
+
+    max-width: 750px;
+    margin: auto;
+}
+.avatar {
+    width: 200px;
+    border-radius: 15px 70px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.greetings {
+    display: flex;
+    margin-bottom: 20px;
+}
+@media (max-width: 700px) {
+    .greetings {
+        text-align: center;
+        display: block;
+    }
+}
+.greetings p {
+    color: black;
+    margin-bottom: 0;
+    /* font-style: italic; */
+    /* letter-spacing: 15px; */
+    /* word-spacing: 42px; */
+}
+.greetings-text {
+    margin-left: 40px;
+}
+.greetings-text p {
+    margin-top: 5px;
+}
+.social {
+    text-align: center;
+    margin-bottom: 5px;
+    border-top: 1px solid black;
+}
+.social h4 {
+    margin-bottom: 5px;
+}
+/* .quote {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 20px;
+} */
+.skills {
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
+    /* border: 1px solid lightpink; */
+}
+.skills li {
+    color: black;
+    margin-bottom: 10px;
+    /* width: 50%; */
+}
+.hobby-now, .hobby-last {
+    text-align: center;
+}
+.hobby-now ul, .hobby-last ul {
+    padding-left: 0;
+    list-style: none;
+}
+.hobby-now li, .hobby-last li {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    /* width: 50%; */
+    /* border-bottom: 1px solid black; */
+}
+.hobbies{
+    display: flex;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+.contact {
+    margin-bottom: 30px;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+
+    font-size: 14px;
+    color: black;
+}
+.form-group input, .form-group textarea {
+    /* margin-bottom: 10px; */
+
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+.btn {
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
